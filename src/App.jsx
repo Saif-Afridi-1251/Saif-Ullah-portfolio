@@ -7,14 +7,35 @@ import Hero from "./components/sections/Hero"
 import Projects from "./components/sections/Projects"
 import Skills from "./components/sections/Skills"
 import Footer from "./components/layout/Footer"
+import Loader from "./components/common/Loader"
+import { useEffect, useState } from "react"
+
 
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  // if not loaded portfolio
+   if (loading) {
+    return <Loader />;
+  }
   
+  
+// else this portfolio
 
   return (
+    
     <>
-       <Navbar />
+    <Navbar />
 
       <main>
         <Hero />
@@ -26,7 +47,7 @@ function App() {
         <Contact />
       </main>
 
-      <Footer />
+      <Footer /> 
     </>
   )
 }
