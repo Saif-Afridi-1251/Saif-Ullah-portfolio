@@ -4,7 +4,7 @@ const certificates=[
 
 title:"AWS Solutions Architect",
 
-image:"/certificates/aws.jpg"
+image:"../../public/aws.jpeg"
 
 },
 
@@ -12,7 +12,7 @@ image:"/certificates/aws.jpg"
 
 title:"Azure Administrator",
 
-image:"/certificates/azure.jpg"
+image:"../../public/azure.jpeg"
 
 },
 
@@ -20,7 +20,7 @@ image:"/certificates/azure.jpg"
 
 title:"DevOps Engineer",
 
-image:"/certificates/devops.jpg"
+image:"../../devOps.jpeg"
 
 }
 

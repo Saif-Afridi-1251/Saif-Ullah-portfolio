@@ -7,9 +7,9 @@ title:"Odoo Platform",
 description:
 "Production ready Odoo Platform using Docker, PostgreSQL and DevOps practices.",
 
-image:"/projects/odoo.png",
+image:"../../public/oodo.jpg",
 
-github:"https://github.com/yourrepo",
+github:"https://github.com/Saif-Afridi-1251",
 
 demo:"",
 
@@ -29,9 +29,9 @@ title:"Grafana Provisioning",
 description:
 "Automated Grafana provisioning with Prometheus dashboards.",
 
-image:"/projects/grafana.png",
+image:"../../grafana-dashboard-english.png",
 
-github:"https://github.com/yourrepo",
+github:"https://github.com/Saif-Afridi-1251",
 
 demo:"",
 
