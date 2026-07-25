@@ -14,7 +14,7 @@ const profile = {
 
   resume: "/resume/resume.pdf",
 
-  yearsExperience: "Fresh Graduate",
+  yearsExperience: "0.3",
 
     projectsCompleted:10,
 
