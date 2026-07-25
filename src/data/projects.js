@@ -7,7 +7,7 @@ title:"Odoo Platform",
 description:
 "Production ready Odoo Platform using Docker, PostgreSQL and DevOps practices.",
 
-image:"../../public/oodo.jpg",
+image:"../../oodo.jpg",
 
 github:"https://github.com/Saif-Afridi-1251",
 

@@ -4,7 +4,7 @@ const certificates=[
 
 title:"AWS Solutions Architect",
 
-image:"../../public/aws.jpeg"
+image:"../../aws.jpeg"
 
 },
 
@@ -12,7 +12,7 @@ image:"../../public/aws.jpeg"
 
 title:"Azure Administrator",
 
-image:"../../public/azure.jpeg"
+image:"../../azure.jpeg"
 
 },
 
