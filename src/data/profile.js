@@ -8,7 +8,7 @@ const profile = {
 
   github: "https://github.com/Saif-Afridi-1251",
 
-  linkedin: "https://linkedin.com/in/yourusername",
+  linkedin: "https://www.linkedin.com/in/saif-ullah-khan-9919312b2/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BV65sxWh%2FR6WuyetRX63DbQ%3D%3D",
 
   email: "saifaws001@gmail.com",
 

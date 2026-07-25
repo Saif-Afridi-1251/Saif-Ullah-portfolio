@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-
+import GlassCard from "./Glasscard";
 function CertificateCard({ certificate }) {
 
 return(
-
-<motion.div
-
+ <GlassCard className="p-8">
+ <motion.div
+ 
 whileHover={{
 scale:1.04
 }}
@@ -29,6 +29,8 @@ alt={certificate.title}
 </h3>
 
 </motion.div>
+
+</GlassCard>
 
 )
 

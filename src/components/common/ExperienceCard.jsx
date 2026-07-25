@@ -1,7 +1,9 @@
+import GlassCard from "./Glasscard";
 function ExperienceCard({ item }) {
 
 return(
 
+<GlassCard className="p-8">
 <div className="border-l-4 border-blue-500 pl-8 py-6">
 
 <h3 className="text-2xl font-bold">
@@ -29,6 +31,7 @@ return(
 </p>
 
 </div>
+</GlassCard>
 
 )
 

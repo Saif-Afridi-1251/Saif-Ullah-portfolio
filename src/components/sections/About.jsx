@@ -3,11 +3,12 @@ import profile from "../../data/profile";
 import SectionTitle from "../common/sectiontitle";
 
 import StatCard from "../common/StatCard";
+import GlassCard from '../common/Glasscard';
 
 function About() {
 
 return(
-
+<GlassCard className='p-8'>
 <section
 id="about"
 className="max-w-7xl mx-auto px-6 py-32"
@@ -72,6 +73,8 @@ label="Technologies"
 </div>
 
 </section>
+
+</GlassCard>
 
 )
 

@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
 import Badge from "./Badge";
 import Button from "./Button";
-
+import GlassCard from "./Glasscard";
 function ProjectCard({ project }) {
 
 return(
+
+<GlassCard className="p-8">
 
 <motion.div
 
@@ -91,6 +93,8 @@ Live Demo
 </div>
 
 </motion.div>
+
+</GlassCard>
 
 )
 
