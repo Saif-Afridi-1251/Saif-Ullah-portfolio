@@ -10,7 +10,13 @@ return(
 
 <motion.div
 
-whileHover={{ y:-10 }}
+ whileHover={{
+    y: -8,
+    scale: 1.02,
+  }}
+  transition={{
+    duration: 0.25,
+  }}
 
 className="bg-slate-900 rounded-3xl overflow-hidden shadow-lg"
 

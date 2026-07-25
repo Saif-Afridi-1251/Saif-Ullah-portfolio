@@ -5,10 +5,14 @@ function CertificateCard({ certificate }) {
 return(
  <GlassCard className="p-8">
  <motion.div
- 
-whileHover={{
-scale:1.04
-}}
+
+ whileHover={{
+    y: -8,
+    scale: 1.02,
+  }}
+  transition={{
+    duration: 0.25,
+  }}
 
 className="overflow-hidden rounded-2xl"
 
