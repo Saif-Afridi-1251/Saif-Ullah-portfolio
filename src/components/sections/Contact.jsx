@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import SectionTitle from "../common/sectiontitle";
 import { sendEmail } from "../../utils/email";
-import GlassCard from "../common/Glasscard";
+
 
 function Contact() {
   const form = useRef();
@@ -23,7 +23,7 @@ function Contact() {
   };
 
   return (
-    <GlassCard className="p-2">
+    
     <section
       id="contact"
       className="max-w-5xl mx-auto py-32 px-6"
@@ -71,7 +71,7 @@ function Contact() {
       </form>
     </section>
 
-    </GlassCard>
+    
   );
 }
 

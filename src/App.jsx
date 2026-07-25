@@ -10,6 +10,8 @@ import Footer from "./components/layout/Footer"
 import Loader from "./components/common/Loader"
 import { useEffect, useState } from "react"
 
+import BackgroundEffects from "./components/common/BackgroundEffect"
+
 
 
 function App() {
@@ -35,6 +37,7 @@ function App() {
   return (
     
     <>
+    <BackgroundEffects/>
     <Navbar />
 
       <main>
