@@ -1,13 +1,23 @@
-const username="Saif-Afridi-1251"
+import profile from "../data/profile";
 
-export async function getRepos(){
+export async function getRepos() {
+  try {
+    const response = await fetch(
+      `https://api.github.com/users/${profile.githubUsername}/repos`
+    );
 
-const res=await fetch(
+    if (!response.ok) {
+      throw new Error("Failed to fetch repositories");
+    }
 
-`https://api.github.com/users/${username}/repos`
+    const data = await response.json();
 
-)
-
-return res.json()
-
+    // Sort newest first
+    return data.sort(
+      (a, b) => new Date(b.updated_at) - new Date(a.updated_at)
+    );
+  } catch (error) {
+    console.error("GitHub API Error:", error);
+    return [];
+  }
 }

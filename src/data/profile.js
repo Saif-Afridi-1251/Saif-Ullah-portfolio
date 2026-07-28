@@ -2,6 +2,7 @@ const profile = {
   name: "Saif Ullah Khan",
   role: "Software Engineer",
   location: "Pakistan",
+  githubUsername: "Saif-Afridi-1251",
 
   description:
     "Passionate MERN Stack Developer and Cloude/DevOps Engineer focused on building scalable web applications, cloud infrastructure, and automation solutions.",
